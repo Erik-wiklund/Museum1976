@@ -26,10 +26,10 @@ namespace Museet
             {
 
                 Console.Write("Val: ");
-                string väljrum = Console.ReadLine();
+                string väljRum = Console.ReadLine();
                 Console.WriteLine();
 
-                if (väljrum == "1" || väljrum == "ett" || väljrum == "Ett")
+                if (väljRum == "1" || väljRum == "ett" || väljRum == "Ett")
                 {
                     Console.WriteLine("Välkommen till renässansrummet!");
                     Console.WriteLine("I detta rum kommer du få läsa om Nattvarden av Leonardo da Vinci.");
@@ -62,7 +62,7 @@ namespace Museet
                     Console.WriteLine();
 
                 }
-                else if (väljrum == "2" || väljrum == "två" || väljrum == "Två")
+                else if (väljRum == "2" || väljRum == "två" || väljRum == "Två")
                 {
                     Console.WriteLine("Välkommen till poesirummet!");
                     Console.WriteLine("Här inne kommer du att få läsa om några kända författare och deras dikter.");
@@ -93,7 +93,7 @@ namespace Museet
                     Console.WriteLine("[8] Gå ut från museet!");
                     Console.WriteLine();
                 }
-                else if (väljrum == "3" || väljrum == "tre" || väljrum == "Tre")
+                else if (väljRum == "3" || väljRum == "tre" || väljRum == "Tre")
                 {
                     Console.WriteLine("Välkommen till kända fotografier!");
                     Console.WriteLine("Här kommer du att få läsa om några av värdlens mest kända fotografier och lite fakta om dem.");
@@ -128,7 +128,7 @@ namespace Museet
                     Console.WriteLine();
 
                 }
-                else if (väljrum == "4" || väljrum == "fyra" || väljrum == "Fyra")
+                else if (väljRum == "4" || väljRum == "fyra" || väljRum == "Fyra")
                 {
                     Console.WriteLine("Välkommen till rummet som är under uppbyggnad!");
                     Console.WriteLine("Om du väljer att vänta så läs då en bok så länge!");
@@ -149,7 +149,7 @@ namespace Museet
                     Console.WriteLine("[8] Gå ut från museet!");
                     Console.WriteLine();
                 }
-                else if (väljrum == "5" || väljrum == "fem" || väljrum == "Fem")
+                else if (väljRum == "5" || väljRum == "fem" || väljRum == "Fem")
                 {
                     Console.WriteLine("Välkommen till fikarummet!");
                     Console.WriteLine("Tyvärr måste vi meddela att vi än inte kan erbjuda fika genom datorn.");
@@ -170,7 +170,7 @@ namespace Museet
                     Console.WriteLine("[8] Gå ut från museet!");
                     Console.WriteLine();
                 }
-                else if (väljrum == "6" || väljrum == "sex" || väljrum == "Sex")
+                else if (väljRum == "6" || väljRum == "sex" || väljRum == "Sex")
                 {
                     Console.WriteLine("Välkommen till realism!");
                     Console.WriteLine("Här inne kommer du få läsa om konst som handlar om att den sanningsenlig och inte på något sätt förskönad");
@@ -206,7 +206,7 @@ namespace Museet
                     Console.WriteLine("[8] Gå ut från museet!");
                     Console.WriteLine();
                 }
-                else if (väljrum == "7" || väljrum == "sju" || väljrum == "Sju")
+                else if (väljRum == "7" || väljRum == "sju" || väljRum == "Sju")
                 {
                     Console.WriteLine("Välkommen till skulpturer!");
                     Console.WriteLine("Davidstatyn!");
@@ -234,7 +234,7 @@ namespace Museet
                     Console.WriteLine("[8] Gå ut från museet!");
                     Console.WriteLine();
                 }
-                else if (väljrum == "8" || väljrum == "åtta" || väljrum == "Åtta")
+                else if (väljRum == "8" || väljRum == "åtta" || väljRum == "Åtta")
                 {
                     Console.WriteLine("Hoppas du haft en trevlig tid på museet.");
                     Console.WriteLine("Vi ser fram emot ditt nästa besök.");
